@@ -1,15 +1,22 @@
 body { margin: 0%;
     overflow-x: hidden;
-    font-family: SFmedium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+    font-family: SFmedium, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white; }
 
 .menu { width: 100vw;
     height: 44px;
-    background-color: rgba(0, 0, 0, 0.8); }
+    background-color: rgba(0, 0, 0, 0.79);
+    position: fixed;
+    margin-top: 0px; }
+
+.home {background-color: rgb(133, 133, 133);
+    width: 100%;
+    height: 1px; }
 
 .orghome { width: 66vw;
     height: 100%;
     display: flex;
-    padding-left: 16.3%;}
+    padding-left: 16.3%; }
 
 .linkmenu { margin: auto;
     text-decoration: none;
@@ -17,121 +24,178 @@ body { margin: 0%;
     font-size: 14.45px;
     padding-bottom: 1.5px;
     padding-right: 14px;
-    font-weight: 100;}
+    font-weight: 100; }
 
 .apple { width: 25px;
     padding-top: 4px;
-    fill: white;}
+    fill: white; }
 
 .submenu { background-color: rgba(223, 227, 235, 0.4);
     width: 100vw;
-    height: 42px;
+    height: 44px;
     margin-top: 2px;
-    display: flex;}
+    display: flex;
+    padding-top: 44px; }
 
 .linksub { margin: auto;
     font-size: 14.33px;
     padding-bottom: 3px;
     padding-right: 15px;
     color: rgb(75, 75, 75);
-    font-weight: lighter;}
+    font-weight: lighter; }
 
 a {text-decoration: none;
-    color: rgb(56, 132, 231);}
+    color: rgb(56, 132, 231); }
 
 .iphone12 {width: 100vw;
-    height: 100vh;
+    height: 85vh;
     background-image: url(iphone_pro.jpg);
     background-position: center;
-    background-size: 2260px;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    margin: 0px;
-    box-sizing: border-box;
-    padding-bottom: 1000px;}
+    background-color: white; }
 
 .tit {font-size: 54.5px;
-    padding-right: 20px;
+    padding-right: 15px;
     margin: 0px;
     font-weight: lighter;
     padding-top: 2.6rem;
     text-shadow: 1px 1.1px rgb(161, 161, 161);
     font-weight: 500;
-    padding-bottom: 5px;}
+    padding-bottom: 5px; }
 
 .tit2 {font-size: 26.3px;
     margin: 0px;
     padding-right: 12px;
-    padding-bottom: 20px;
-    font-weight: 100;}
+    padding-bottom: 16.7px;
+    font-weight: 100; }
 
 .tit3 {font-size: 20px;
-    padding-right: 23px;
+    padding-right: 30px;
+    font-weight: 100; }
+
+.iphonepro {width: 100vw;
+    height: 84vh;
+    background-image: url(iphonepro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: black; }
+
+.tit21 {color: white; }   
+   
+.ipad  {width: 100vw;
+    height: 85vh;
+    background-image: url(ipad_pro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: black; }
+   
+.espaco {margin-bottom: 0.745rem; }   
+
+.pai {width: 100%;
+    height: 80vh;
+    margin: 0.7rem;
+    display: flex; }
+
+.esq {width: 50%;
+    height: 80vh;
+    background-color: blue;
+    margin-left: 0.1%;
+    margin-right: 0.7%;}
+
+.dir {width: 50%;
+    height: 80vh;
+    background-color: blueviolet;
+    margin-right: 0.4%;}
+
+.junina {width: 100%;
+    height: 100%;
+    background-image: url(imac.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;}
+
+.junina2 {width: 100%;
+    height: 100%;
+    background-image: url(coluna1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;}
+
+.colu1 {width: 100%;
+    height: 100%;
+    background-image: url(coluna2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;}
+    
+.colu2 {width: 100%;
+    height: 100%;
+    background-image: url(coluna3.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;}
+
+.colu3 {width: 100%;
+    height: 100%;
+    background-image: url(coluna4.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;}
+
+.colu4 {width: 100%;
+    height: 100%;
+    background-image: url(coluna5.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;}
+
+.rodape {background-color: grey;
+    width: 100vw;
+    height: 70vh;}
+
+.texto {width: 70%;
+    height: 20%;
+    margin: auto;
+    padding-top: 49%;}
+
+.tit5 {font-size: 40px;}
+
+.tit6 {font-size: 20px;
     font-weight: 100;}
 
-.tit4 {margin-bottom: 10px;}
+.texto2 {width: 24%;
+    height: 27%;
+    margin: auto;
+    padding-top: 5%;}
 
-.tit5 {padding-bottom: 100px;}
+.tit7 {font-size: 17px;
+    font-weight: 100;}
 
-@font-face {
-    font-family: 'SFultralight';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Ultralight'), url('sf-ui-display-ultralight-58646b19bf205.woff') format('woff');
-    }
-    
+.texto3 {width: 32%;
+    height: 27%;
+    margin: auto;
+    padding-top: 1%;}
 
-    @font-face {
-    font-family: 'SFthin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Thin'), url('sf-ui-display-thin-58646e9b26e8b.woff') format('woff');
-    }
-    
+.texto4 {width: 70%;
+    height: 20%;
+    margin: auto;
+    padding-top: 56%;}
 
-    @font-face {
-    font-family: 'SFlight';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Light'), url('sf-ui-display-light-58646b33e0551.woff') format('woff');
-    }
-    
+.tit1 {color: white;}
+
+.tit1:hover {text-decoration: underline;}
+
+a:hover {text-decoration: underline;}
 
     @font-face {
     font-family: 'SFmedium';
     font-style: normal;
     font-weight: normal;
     src: local('SF UI Display Medium'), url('sf-ui-display-medium-58646be638f96.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'SFsemibold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Semibold'), url('sf-ui-display-semibold-58646eddcae92.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'SFbold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Bold'), url('sf-ui-display-bold-58646a511e3d9.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'SFheavy';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Heavy'), url('sf-ui-display-heavy-586470160b9e5.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'SFblack';
-    font-style: normal;
-    font-weight: normal;
-    src: local('SF UI Display Black'), url('sf-ui-display-black-58646a6b80d5a.woff') format('woff');
     }
