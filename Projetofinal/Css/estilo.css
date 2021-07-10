@@ -9,7 +9,7 @@ body {
 .menu {
     width: 100%;
     height: 7rem;
-    background-color: rgba(7, 10, 27, 0.5);
+    background-color: rgba(0, 6, 41, 0.5);
     justify-content: space-between;
     display: flex;
     position: fixed;
@@ -24,11 +24,36 @@ a {
 }
 
 .catalogosite {
-    width: 80vw;
-    height: 420px;
+    width: 90vw;
+    height: 480px;
     margin:auto;
-    margin-top: 16rem;
+    margin-top: 10rem;
     background-color: rgb(58, 170, 151);
+    display: flex;
+}
+
+.site1 {
+    background-image: url(../Img/eu1.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 30%;
+    height: 80%;
+}
+
+.site2 {
+    background-image: url(../Img/eu1.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 30%;
+    height: 80%;
+}
+
+.site3 {
+    background-image: url(../Img/eu1.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 30%;
+    height: 80%;
 }
 
 .espaco {
@@ -37,36 +62,58 @@ a {
 }
 
 .catalogodesign {
-    width: 80vw;
-    height: 420px;
+    width: 90vw;
+    height: 480px;
     margin:auto;
     margin-top: 10rem;
     background-color: rgb(58, 170, 151);
     display: flex;
 }
 
-.imagem1 {
+.design1 {
     background-image: url(../Img/eu1.jpg);
     background-size: cover;
     margin: auto;
-    width: 100%;
+    width: 30%;
+    height: 80%;
 }
 
-.imagem2 {
+.design2 {
     background-image: url(../Img/eu1.jpg);
     background-size: cover;
     margin: auto;
+    width: 30%;
+    height: 80%;
 }
 
-.imagem3 {
+.design3 {
     background-image: url(../Img/eu1.jpg);
     background-size: cover;
     margin: auto;
+    width: 30%;
+    height: 80%;
 }
 
 .rodape {
     width: 100%;
-    height: 20rem;
+    height: 2.5rem;
     margin-top: 10rem;
     background-color: rgb(58, 170, 151);
+    display: flex;
+}
+
+.ajuda {
+    color: white;
+    margin: auto;
+}
+
+.contato {
+    color: white;
+    margin: auto;
+}
+
+.contatoemail {
+    color: white;
+    margin: auto;
+    font-size: 30px;
 }
