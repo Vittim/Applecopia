@@ -28,6 +28,23 @@ a:hover {
     color: rgb(84, 221, 231);
 }
 
+img {
+    width: 300px;
+    margin: auto;
+}
+
+.organizacao {
+    margin: auto;
+    display: flex;
+    align-self: center;
+    margin-top: 10rem;
+}
+
+.espaco {
+    width: 100%;
+    height: 10rem;
+}
+
 .rodape {
     width: 100%;
     height: 2.5rem;
