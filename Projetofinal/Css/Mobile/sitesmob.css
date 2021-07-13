@@ -20,12 +20,7 @@ body {
 a {
     text-decoration: none;
     margin: auto;
-    color: rgba(0, 238, 255, 0.732);
-    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
-}
-
-a:hover {
-    color: rgb(84, 221, 231);
+    color: rgb(39, 185, 161);
 }
 
 .espaco {
@@ -38,8 +33,8 @@ a:hover {
 }
 
 .tiposite {
-    width: 400px;
-    height: 360px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(58, 170, 151);
     margin: auto;
     margin-top: 10rem;
@@ -53,7 +48,7 @@ img {
     width: 100%;
     height: 2.5rem;
     margin-top: 10rem;
-    background-color: rgba(0, 238, 255, 0.3);
+    background-color: rgb(58, 170, 151);
     display: inline-flex;
 }
 
