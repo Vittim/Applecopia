@@ -29,7 +29,6 @@ a:hover {
 }
 
 img {
-    width: 300px;
     margin: auto;
 }
 
@@ -37,6 +36,11 @@ img {
     margin: auto;
     display: flex;
     align-self: center;
+    margin-top: 10rem;
+    width: 80%;
+}
+
+.orgds {
     margin-top: 10rem;
 }
 
