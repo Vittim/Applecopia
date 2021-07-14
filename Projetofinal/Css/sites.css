@@ -18,6 +18,45 @@ body {
     backdrop-filter: blur(2px);
 }
 
+.sites {
+    width: 36%;
+    height: 92%;
+    margin:auto;
+    background-color: rgba(0, 155, 167, 0.671); 
+    display: flex;
+    border-radius: 7.5px;
+    box-shadow: rgba(5, 70, 75, 0.39) 18px 13.5px;
+}
+
+.espacamento {
+    width: 92vw;
+    height: 600px;
+    margin:auto;
+    margin-top: 10rem;
+    display: flex;
+    
+}
+
+.site1 {
+    background-image: url(../Img/eu1.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 94%;
+    height: 94%;
+    border-radius: 7.5px;
+}
+
+.site2 {
+    background-image: url(../Img/eu2.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 94%;
+    height: 94%;
+    border-radius: 7.5px;
+}
+
+
+
 a {
     text-decoration: none;
     margin: auto;
