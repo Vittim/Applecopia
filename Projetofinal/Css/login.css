@@ -15,6 +15,7 @@ body {
     position: fixed;
     top: 0px;
     font-size: 50px;
+    backdrop-filter: blur(2px);
 }
 
 a {
@@ -28,21 +29,44 @@ a:hover {
     color: rgb(84, 221, 231);
 }
 
+.formula {
+    width: 40vw;
+    height: 400px;
+    background-color: rgba(0, 155, 167, 0.671);
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.login1 {
+    width: 80%;
+    height: 40px;
+    background-color: rgba(166, 249, 255, 0.664);
+    border-style: none;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+    border-radius: 6px;
+}
+
 .rodape {
     width: 100%;
     height: 2.5rem;
     margin-top: 10rem;
-    background-color: rgba(0, 238, 255, 0.3);
-    display: inline-flex;
+    background-color: rgb(0, 6, 41);
+    display: flex;
+    color: rgba(0, 238, 255, 0.732);
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
 }
 
 .ajuda {
-    color: white;
     margin: auto;
 }
 
 .contato {
     margin: auto;
-    color: white;
-    font-size: 34px;
+    font-size: 27px;
 }
