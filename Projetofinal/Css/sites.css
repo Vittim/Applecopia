@@ -6,6 +6,8 @@ body {
     font-size: 44px;
 }
 
+/** Tá dando uma olhada no meu código? Então segue lá na Twitch https://www.twitch.tv/vittimbr e no Twitter https://twitter.com/Vittimbr **/
+
 .menu {
     width: 100%;
     height: 7rem;
@@ -17,7 +19,7 @@ body {
     font-size: 50px;
     backdrop-filter: blur(2px);
 }
-
+/** Tá dando uma olhada no meu código? Então segue lá na Twitch https://www.twitch.tv/vittimbr e no Twitter https://twitter.com/Vittimbr **/
 .sites {
     width: 46%;
     height: 92%;
@@ -56,7 +58,7 @@ body {
     border-radius: 7.5px;
     padding-top: 5%;
 }
-
+/** Tá dando uma olhada no meu código? Então segue lá na Twitch https://www.twitch.tv/vittimbr e no Twitter https://twitter.com/Vittimbr **/
 .site3 {
     background-image: url(../Img/site3.jpg);
     background-size: cover;
