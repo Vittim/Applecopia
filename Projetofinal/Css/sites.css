@@ -19,17 +19,17 @@ body {
 }
 
 .sites {
-    width: 36%;
+    width: 46%;
     height: 92%;
     margin:auto;
     background-color: rgba(0, 155, 167, 0.671); 
-    display: flex;
     border-radius: 7.5px;
     box-shadow: rgba(5, 70, 75, 0.39) 18px 13.5px;
+    text-align: center;
 }
 
 .espacamento {
-    width: 92vw;
+    width: 100vw;
     height: 600px;
     margin:auto;
     margin-top: 10rem;
@@ -38,24 +38,86 @@ body {
 }
 
 .site1 {
-    background-image: url(../Img/eu1.jpg);
+    background-image: url(../Img/site2.jpg);
     background-size: cover;
     margin: auto;
     width: 94%;
-    height: 94%;
+    height: 80%;
     border-radius: 7.5px;
+    padding-top: 5%;
 }
 
 .site2 {
-    background-image: url(../Img/eu2.jpg);
+    background-image: url(../Img/site1.jpg);
     background-size: cover;
     margin: auto;
     width: 94%;
-    height: 94%;
+    height: 80%;
     border-radius: 7.5px;
+    padding-top: 5%;
 }
 
+.site3 {
+    background-image: url(../Img/site3.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 94%;
+    height: 80%;
+    border-radius: 7.5px;
+    padding-top: 5%;
+}
 
+.site4 {
+    background-image: url(../Img/site4.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 94%;
+    height: 80%;
+    border-radius: 7.5px;
+    padding-top: 5%;
+}
+
+.texto {
+    width: 100%;
+    margin: auto;
+    word-spacing: 1px;
+    align-self: center;
+}
+
+.texto1 {
+    margin-top: 7px;
+}
+
+.texto2 {
+    margin-top: 15px;
+}
+
+.texto3 {
+    margin-top: 14px;
+}
+
+.texto4 {
+    margin-top: 35px;
+}
+
+.orgtexto {
+    margin-top: 216px;
+    margin-left: 4px;
+    border-radius: 7.5px;
+    background-color: rgb(255, 251, 0);
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 35%;
+    height: 50%;
+    color: black;
+    -webkit-text-stroke: 0.15px #222222;
+}
+
+.centro {
+    color: #ffdd00;
+    font-size: 38px;
+}
 
 a {
     text-decoration: none;
@@ -71,17 +133,6 @@ a:hover {
 .espaco {
     width: 100%;
     height: 10rem;
-}
-
-.sites {
-    display: flex;
-}
-
-.tiposite {
-    width: 400px;
-    height: 360px;
-    margin: auto;
-    margin-top: 10rem;
 }
 
 img {
